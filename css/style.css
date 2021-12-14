@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('../images/01.webp') no-repeat center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+body::before{
+    position: absolute;
+    content: "";
+    clear: both;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(28, 251, 7, 0.356);
+}
+
+#form-task h3 {
+    padding-top: 40px;
+    color: #000;
+}
+
+#submit{
+    background: rgb(22, 250, 79);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+#clear-task-btn{
+     /* background: red; */
+    justify-content: space-between;
+    background: rgb(255, 0, 234);
+    color: #fff;
+    border: nonek;
+}
+
+
+#tasks{
+    background: green;
+    width: 30%;
+}
+
+.list{
+    color: #fff;
+    padding: 2px 15px;
+    border-bottom: 1px solid #fff;
+    margin: 0;
+    list-style: none;
+}
+
+.list a{
+    color: rgb(255, 0, 234);
+    background: #fff;
+    padding: 0px 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 700;
+    float: right;
+}
